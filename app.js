@@ -7,11 +7,12 @@ var items = document.createElement("center")
 
 var games = document.createElement("iframe")
 games.src = "https://uwuugle.com/games/index.html"
-games.rameborder="1"
-games.marginheight="0px"
-games.marginwidth="0px"
-games.height="100%"
-games.width="100%"
+games.setAttribute("rameborder","1")
+games.setAttribute("marginheight","0px")
+games.setAttribute("marginwidth","0px")
+games.setAttribute("height","100%")
+games.setAttribute("width","100%")
+
 items.appendChild(games)
 
 appid.appendChild(items)
