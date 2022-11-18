@@ -6,13 +6,12 @@ appid.appendChild(title)
 var items = document.createElement("center")
 
 var games = document.createElement("iframe")
-games.source = "https://uwuugle.com/games/index.html"
-gamesrameborder="1"
-gamesmarginheight="0px"
-gamesmarginwidth="0px"
-gamesheight="100%"
-gameswidth="100%"
-gamesallowfullscreen
+games.src = "https://uwuugle.com/games/index.html"
+games.rameborder="1"
+games.marginheight="0px"
+games.marginwidth="0px"
+games.height="100%"
+games.width="100%"
 items.appendChild(games)
 
 appid.appendChild(items)
