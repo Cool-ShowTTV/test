@@ -5,15 +5,17 @@ appid.appendChild(title)
 
 var items = document.createElement("center")
 
-var games = document.createElement("iframe")
-games.src = "https://uwuugle.com/games/index.html"
-games.setAttribute("rameborder","1")
-games.setAttribute("marginheight","0px")
-games.setAttribute("marginwidth","0px")
-games.setAttribute("height","100%")
-games.setAttribute("width","100%")
+var tab = document.createElement("button")
+tab.className = "vaportab"
+tab.innerText = "Tab Cloak"
+tab.setAttribute("onclick", 'new Nightmare({"title": "Tab Cloak","type": "js","js": "https://cdn.jsdelivr.net/gh/FogNetwork/Vapor/tab.min.js","width": 400,"height": 300,"theme": "dark"})')
+items.appendChild(tab)
 
-items.appendChild(games)
+var inspect = document.createElement("button")
+inspect.className = "vaportab"
+inspect.innerText = "Avo"
+inspect.setAttribute("onclick", "javascript:(function () {var a = document.createElement('script');a.src = 'https://cdn.jsdelivr.net/gh/FogNetwork/Avo/avo.min.js';document.body.appendChild(a);}())")
+items.appendChild(inspect)
 
 appid.appendChild(items)
 
