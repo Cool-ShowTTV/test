@@ -1,7 +1,8 @@
 var vaporwindow = `new Nightmare({
-    "title": "Vapor",
+    "title": "a",
     "type": "js",
-    "js": "https://cdn.jsdelivr.net/gh/cool-showttv/test/app.min.js",
+    //"js": "https://cdn.jsdelivr.net/gh/cool-showttv/test/app.min.js",
+    "js": "https://uwuugle.com/games/index.html",
     "width": 800,
     "height": 600,
     "theme": "dark"
