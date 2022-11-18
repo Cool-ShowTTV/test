@@ -1,5 +1,5 @@
 var vaporwindow = `new Nightmare({
-    "title": "a",
+    "title": "Gammin",
     "type": "url",
     "url": "https://uwuugle.com/games/index.html",
     "width": 800,
